@@ -1,0 +1,93 @@
+/* CSS for Login Form */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#content_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+#form_container {
+    background-color: #fff;
+    padding: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: 400px;
+}
+
+#form_header_container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#form_header {
+    font-size: 24px;
+    color: #333;
+}
+
+#form_content_container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+input::placeholder {
+    color: #aaa;
+}
+
+#button_container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+button {
+    padding: 12px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+button:focus {
+    outline: none;
+}
+
+button:last-of-type {
+    background-color: #007bff;
+}
+
+button:last-of-type:hover {
+    background-color: #0056b3;
+}
+
+button:last-of-type:focus {
+    outline: none;
+}
